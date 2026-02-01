@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0-rc.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://releases.stackeye.io/cli/v0.2.0-rc.2/stackeye_0.2.0-rc.2_windows_amd64.zip",
+            "bin": "stackeye.exe"
+        }
+    },
+    "homepage": "https://stackeye.io",
+    "description": "CLI for StackEye uptime monitoring platform",
+    "license": "MIT",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://releases.stackeye.io/cli/v$version/stackeye_$version_windows_amd64.zip"
+            }
+        }
+    }
+}
