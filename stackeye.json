@@ -3,6 +3,7 @@
     "architecture": {
         "64bit": {
             "url": "https://releases.stackeye.io/cli/v0.2.0-rc.2/stackeye_0.2.0-rc.2_windows_amd64.zip",
+            "hash": "1c19b640078c240844d90bce0f9bb45458f9c97614bf0eee28a72e3e561e9854",
             "bin": "stackeye.exe"
         }
     },
